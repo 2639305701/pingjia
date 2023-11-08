@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>评分和评价</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="0231107175620.jpg">
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <video autoplay loop id="video-background">
+      <source src="https://txmov2.a.yximgs.com/ksc1/-oXe-S1HTHLqa3fJVFf5bL_DGW5lvPkaS7VW5L8utO-Bqgt1RMcjNdt6sYgMVZ2vy4ExyRAZS0molb_3q8CvG1qD3QSn6p0xJNsy_oYrqPcUG0ZuOR6a-aSd6_0v8aRYiFxC8GZRFyl2fUdLBuJakTiOFUFsMhRGHUYU8dtQCEkvFlyWU0h025pG_6YoG2cs.mp4?pkey=AAUJvNQSEtfy6nsH0opUnjrMPwkRZys9MLfumhKk4Lac1RUT18LE4UvYOxkLrfweI5UysfXFnS0asENuxawXifCwgSfc_dx08O_0H0s1FmJMwzK1phjuYpmZjFLwr5ixkbM&clientCacheKey=3xc6vz2579xbevu_b.mp4&tt=b&di=7925590b&bp=10001
+      " type="video/mp4">
+      
+    </video>
+    <div class="wrapper">
+      <p id="message">为您的体验打分</p>
+      <div class="container">
+        <div class="star-container inactive">
+          <i class="fa-regular fa-star"></i>
+          <span class="number">1</span>
+        </div>
+        <div class="star-container inactive">
+          <i class="fa-regular fa-star"></i>
+          <span class="number">2</span>
+        </div>
+        <div class="star-container inactive">
+          <i class="fa-regular fa-star"></i>
+          <span class="number">3</span>
+        </div>
+        <div class="star-container inactive">
+          <i class="fa-regular fa-star"></i>
+          <span class="number">4</span>
+        </div>
+        <div class="star-container inactive">
+          <i class="fa-regular fa-star"></i>
+          <span class="number">5</span>
+        </div>
+      </div>
+      <button id="submit" disabled>提交</button>
+      <div id="submit-section" class="hide">
+        <p id="submit-message">感谢您的反馈</p>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
